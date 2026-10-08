@@ -99,8 +99,3 @@ class TaskManagerApp:
         if not HAS_CALENDAR:
             self.date_entry.delete(0, tk.END)
 
-
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = TaskManagerApp(root)
-    root.mainloop()
